@@ -67,6 +67,7 @@ class WidgetView extends CControllerDashboardWidgetView {
 				'filter' => [
 					'maintenance_status' => null
 				],
+				'tags' => $this->fields_values['tags'] ?: null,
 				'monitored_hosts' => true,
 				'preservekeys' => true
 			]);
